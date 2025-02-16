@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroid Avoidance</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <h1>ASTEROID AVOIDANCE</h1>
+    <canvas width="800" height="600" style="border:1px solid black; background-color: black;"></canvas>
+    <form method="POST" action="/submit" class="highscore">
+        <input type="text" id="player-name" placeholder="Enter your name for High Score" style="position:absolute; left:650px; top:500px; width:200px;" required />
+        <input type="hidden" id="player-score" value="0" /> <!-- Hidden field for score -->
+        <button type="submit" style="position:absolute; left:700px; top:550px; width:100px;">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

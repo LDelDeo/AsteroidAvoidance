@@ -1,0 +1,18 @@
+body{
+    background-image: url("/images/Stars.jpg");
+}
+
+h1{
+    color:goldenrod;
+    font-family: courier;
+    font-size: 200%;
+    border: 2px solid whitesmoke;
+    text-align: center;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
